@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+  /*colors*/
+  --tx-white: hsl(0, 0%, 100%);
+  --bg-Grey: hsl(0, 0%, 20%);
+  --bg-Dark-Grey: hsl(0, 0%, 12%);
+  --lime-green: hsl(75, 94%, 57%);
+  --bg-Off-Black: hsl(0, 0%, 8%);
+  --outer-margin: 1.5rem;
+}
+
+body {
+  font-size: 0.875rem;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-Off-Black);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-Dark-Grey);
+  margin: 1.5rem;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--bg-Dark-Grey);
+}
+
+.avatar {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.avatar img {
+
+  width: 6rem;
+  border-radius: 50%;
+}
+
+.avatar h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--tx-white);
+}
+
+.avatar h4 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--lime-green);
+  margin-bottom: 0.8rem;
+}
+
+.avatar p {
+  font-size: 1;
+  font-weight: 400;
+  color: hsl(0, 11%, 100%);
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 1rem;
+  color: var(--tx-white);
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.social-networks {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--tx-white);
+  background-color: var(--bg-Grey);
+  text-align: center;
+  padding: 1.2rem 0;
+  border-radius: 0.625rem;
+  gap: 1rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
