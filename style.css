@@ -12,6 +12,7 @@
   --tx-white: hsl(0, 0%, 100%);
   --bg-Grey: hsl(0, 0%, 20%);
   --bg-Dark-Grey: hsl(0, 0%, 12%);
+  --bg-Darker-Grey: hsl(0, 0%,9%);
   --lime-green: hsl(75, 94%, 57%);
   --bg-Off-Black: hsl(0, 0%, 8%);
   --outer-margin: 1.5rem;
@@ -32,7 +33,9 @@ body {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  margin: 4rem 0;
   height: 100vh;
+  background-color: var(--bg-Darker-Grey);
 }
 
 .profile {
@@ -42,7 +45,7 @@ body {
   gap: 2rem;
   background-color: var(--bg-Dark-Grey);
   padding: 1.5rem;
-  margin: 1rem;
+  margin: 1.5rem;
   border-radius: 1rem;
 }
 
@@ -56,11 +59,13 @@ body {
 
 img {
   border-radius: 50%;
+  width: 120px;
 }
 
 h3 {
-  color: var(--tx-white);
+  font-size: 1.5rem;
   font-weight: 700;
+  color: var(--tx-white);
 }
 
 h4 {
@@ -82,11 +87,16 @@ p {
 .social-networks {
   text-align: center;
   color: var(--tx-white);
+  font-weight: 600;
   background-color: var(--bg-Grey);
   padding: 1rem;
   border-radius: 0.625rem;
-  
+  cursor: pointer;
+}
 
+.social-networks:hover {
+  color: var(--bg-Dark-Grey);
+  background-color: var(--lime-green);
 }
 
 
