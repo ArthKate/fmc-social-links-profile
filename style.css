@@ -20,77 +20,75 @@
 body {
   font-size: 0.875rem;
   font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--bg-Off-Black);
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  background-color: var(--bg-Dark-Grey);
-  margin: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  height: 100vh;
 }
 
 .profile {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 2rem;
   background-color: var(--bg-Dark-Grey);
+  padding: 1.5rem;
+  margin: 1rem;
+  border-radius: 1rem;
 }
 
-.avatar {
-  margin-top: 2rem;
+.avatar-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   gap: 1rem;
+  width: 100%;
 }
 
-.avatar img {
-
-  width: 6rem;
+img {
   border-radius: 50%;
 }
 
-.avatar h3 {
-  font-size: 1.5rem;
-  font-weight: 700;
+h3 {
   color: var(--tx-white);
+  font-weight: 700;
 }
 
-.avatar h4 {
-  font-size: 0.9rem;
-  font-weight: 600;
+h4 {
   color: var(--lime-green);
-  margin-bottom: 0.8rem;
+  font-weight: 600;
 }
 
-.avatar p {
-  font-size: 1;
-  font-weight: 400;
-  color: hsl(0, 11%, 100%);
+p {
+  color: var(--tx-white);
 }
 
 .social-links {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding: 1rem 1rem;
-  color: var(--tx-white);
-  margin-top: 1rem;
   width: 100%;
 }
 
 .social-networks {
-  font-size: 1rem;
-  font-weight: 600;
+  text-align: center;
   color: var(--tx-white);
   background-color: var(--bg-Grey);
-  text-align: center;
-  padding: 1.2rem 0;
+  padding: 1rem;
   border-radius: 0.625rem;
-  gap: 1rem;
+  
+
 }
+
 
 .attribution {
   font-size: 11px;
