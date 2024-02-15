@@ -27,7 +27,7 @@ body {
   background-color: var(--bg-Off-Black);
 }
 
-.container {
+.wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,7 +38,7 @@ body {
   background-color: var(--bg-Darker-Grey);
 }
 
-.profile {
+.profile-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,6 +99,27 @@ p {
   color: var(--bg-Dark-Grey);
   background-color: var(--lime-green);
 }
+
+@media (min-width: 768px) {
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-Dark-Grey);
+    height: 100vh;
+  }
+
+  .profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-Dark-Grey);
+    background-color: gray;
+    width: 400px;
+    height: 650px;
+  }
+}
+
 
 
 .attribution {
