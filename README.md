@@ -82,8 +82,8 @@ Am yet to gasp using CSS grid and using locally hosted font-files. I did give a 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ArthKate)
+- Twitter - [@yourusername](https://twitter.com/arthkate)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
