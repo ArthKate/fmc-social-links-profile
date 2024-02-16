@@ -32,7 +32,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
   margin: 4rem 0;
   height: 100vh;
   background-color: var(--bg-Darker-Grey);
@@ -105,8 +104,8 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--bg-Dark-Grey);
     height: 100vh;
+    background-color: var(--bg-Off-Black);
   }
 
   .profile-container {
@@ -114,7 +113,6 @@ p {
     justify-content: center;
     align-items: center;
     background-color: var(--bg-Dark-Grey);
-    background-color: gray;
     width: 400px;
     height: 650px;
   }
